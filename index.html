@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Basket - Vorob</title>
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/basket.css" rel="stylesheet">
+  </head>
+
+  <body>
+      <div class="container clearfix text-center lead">
+        <div class="row slide-title justify-content-center">
+          <h1  class="display-1">Basket assignment</h1>
+        </div>
+
+        <div class="row headers">
+
+          <div class="col-5 ">
+            <div class="card-body align-middle">Items</div>
+          </div>
+
+          <div class="col-5 offset-2">            
+            Your basket
+            <p id="balance-text">Balance: $500</p>
+          </div>
+
+        </div>
+
+        <div class="row basket">
+
+          <div class="col-5">
+
+            <div class="row justify-content-center">
+              <div id="item-1" class="col-5 item my-auto" draggable="true" data-price="25">
+                <p>Basic Cat</p>
+                <p>Price: $25 <a class="text-count"></a><p>
+              </div>
+              <div id="item-2" class="col-5 item" draggable="true" data-price="50">
+                <p>Standard Cat</p>
+                <p>Price: $50 <a class="text-count"></a><p>
+              </div>
+              <div id="item-3" class="col-5 item" draggable="true" data-price="100">
+                <p>Premium Cat</p>
+                <p>Price: $100 <a class="text-count"></a><p>
+              </div>
+              <div id="item-4" class="col-5 item" draggable="true" data-price="200">
+                <p>Deluxe Cat</p>
+                <p>Price: $200 <a class="text-count"></a><p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-5 offset-2 drop-area">
+            <div class="row justify-content-center">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+    <script src="./js/main.js"></script>
+  </body>
+
+</html>

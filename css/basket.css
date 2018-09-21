@@ -1,0 +1,48 @@
+body {
+    cursor: default;
+}
+
+h3 {
+    margin-top: 2rem;
+}
+
+.headers
+[class*="col-"] {    
+    background-color: rgba(143, 143, 143, 0.1);
+}
+
+.headers
+[class*="col-"] a {
+}
+
+.basket
+[class*="col-"] {
+    transition: 150ms linear;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(4, 137, 199, .1);
+    border: 1px solid rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+/*.basket
+[class*="col-"]:hover,
+.basket*/
+.item:hover {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.item {
+    margin: .5rem;
+}
+
+.drop-area.dragover {
+    background-color: rgba(0, 174, 255, 0.45);
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

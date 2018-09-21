@@ -1,0 +1,104 @@
+body {
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+  background-color: rgb(239, 239, 239);
+  /*box-shadow: inset 0 0 3rem rgba(114, 114, 114, .8);*/
+}
+
+.slide-title {
+  background-color: #333;
+  box-shadow: inset 0 0 5rem rgba(0,0,0,.3);
+  padding-bottom: 15px;
+}
+
+.slide-title h1{
+  color: white;
+}
+
+.slide-content {
+  margin-top: 1rem;
+}
+
+.carousel-indicators {
+  border-radius: 0.3rem;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: rgba(163, 163, 163, .5019607843137255);
+  margin-bottom: 0;
+}
+
+.device-image {
+}
+
+.list-marker {
+  font-size: 2.5rem;
+}
+
+ul .list-marker {
+  list-style-type: circle;
+}
+
+.flex-example .row {
+  background-color: #0090ff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.flex-example .col {
+  background-color: #ff7800;
+  border-radius: 0.5rem;
+  margin: 2.7rem;
+  color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.twitter {
+  box-shadow: 0 1px 13px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.example-buttons button{
+  margin: 1rem 0.3rem;
+}
+
+.links {
+  font-size: 2rem
+}
+
+.final-slide {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    height: 50%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+}
+
+.carousel-caption {
+  background-color: rgba(163, 163, 163, .7);
+  border-radius: 0.3rem 0.3rem 0 0;
+  margin-bottom: 22px;
+  padding-top: 0;
+}
+
+.carousel-item {
+width:100%;
+  overflow-y:auto;
+  overflow-x: hidden;
+}
+
+/*code {
+  display: block !important;
+  white-space: pre-wrap !important;
+}*/
+
+/*.carousel-caption h3{
+  color:black;
+}
+*/
+.slide-content img {
+    max-width: 50%;
+}
